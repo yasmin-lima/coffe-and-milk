@@ -14,9 +14,26 @@
 <body>
    <h1 id="titulo">formulário de feedback</h1>
    <p id="texto1">Nós iriamos amar escutar suas dúvidas, sugestões e insatisfações referentes ao blog, para que possamos melhorar!</p>
-   <h3 id="texto2">TIPO DE FEEDBACK:</h3>
-
-
-
+   <br>
+   
+<form>
+<div class="campo">
+    <label><strong>TIPO DE FEEDBACK:</strong></label>
+    <label>
+        <input type="radio" name="devweb" value="sugestoes" checked>sugestões
+    </label>
+    <label>
+        <input type="radio" name="devweb" value="comentario">comentário
+    </label>
+    <label>
+        <input type="radio" name="devweb" value="critica">críticas
+    </label>
+</div>
+<fieldset class="grupo">
+    <div class="campo">
+        <label for="nome"><strong>Nome</strong></label>
+        <input type="text" name="nome" id="nome" required>
+    </div>
+</form>
 </body>
 </html>
