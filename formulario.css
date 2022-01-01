@@ -10,7 +10,7 @@
 #texto1 {
     font-family: sans-serif;
     color: #380B61;
-    margin-left: 10%;
+    margin-inline: 10%;
 } 
 fieldset {
     border: 0;
@@ -68,4 +68,12 @@ fieldset.grupo .campo {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
+}
+.botao:hover {
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+.botao, select{
+    cursor: pointer;
 }
